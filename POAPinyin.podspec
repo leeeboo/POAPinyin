@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source       = { :git => 'https://github.com/leeeboo/POAPinyin.git' }
   s.source_files = '*.{h,m}'
-  s.resources    = ''
+  s.resources    = '*.{png}'
 end
